@@ -4,6 +4,18 @@
 
 (require metacoders-dot-org-dc-lib)
 
+(define (demo-thing . content)
+  (div 
+    style: (properties background-color: "red")
+    content))
+
+(define (point-of-sale)
+  (list
+    (h1 "HI, buy stuff!")
+    (button-primary "Buy")
+    (demo-thing
+      (h2 "I am a div"))))
+
 (define (index)
   (page index.html
         (homepage-content
@@ -21,7 +33,7 @@
             style: (properties
                      text-align: "center")
             (br)
-            (h1 "Coming soon to Washington, DC!"))
+            (point-of-sale))
 
           
 
