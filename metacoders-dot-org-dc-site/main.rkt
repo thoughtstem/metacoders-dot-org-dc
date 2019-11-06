@@ -162,8 +162,8 @@
                    left: "50%"
                    margin-left: -600)
             (br)
-            (courses))
-            (point-of-sale)
+            (courses)
+            (point-of-sale))
 
           )))
 
