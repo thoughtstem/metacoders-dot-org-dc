@@ -4,7 +4,6 @@
 
 (require metacoders-dot-org-dc-lib)
 
-
 (define (buy-button price)
   ;<!-- Load Stripe.js on your website. -->
   ;(script src:"https://js.stripe.com/v3")
@@ -125,6 +124,18 @@
       #:address       "800 Florida Ave NE, Washington, DC 20002"
       #:price         325)))))
    
+(define (demo-thing . content)
+  (div 
+    style: (properties background-color: "red")
+    content))
+
+(define (point-of-sale)
+  (list
+    (h1 "HI, buy stuff!")
+    (button-primary "Buy")
+    (demo-thing
+      (h2 "I am a div"))))
+
 (define (index)
   (page index.html
         (homepage-content
@@ -152,6 +163,8 @@
                    margin-left: -600)
             (br)
             (courses))
+            (point-of-sale)
+
           )))
 
 (define (pages)
