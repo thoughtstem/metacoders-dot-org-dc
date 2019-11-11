@@ -19,8 +19,8 @@
 
     stripe.redirectToCheckout({
       items: [{sku: '@sku', quantity: 1}],
-      successUrl: 'https://your-website.com/success',
-      cancelUrl: 'https://your-website.com/canceled',
+      successUrl: 'https://metacoders-dot-org/checkout-success.html',
+      cancelUrl: 'https://metacoders-dot-org/checkout-fail.html',
     })
     .then(function (result) {
       if (result.error) {
