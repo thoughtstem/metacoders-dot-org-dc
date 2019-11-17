@@ -41,7 +41,7 @@
 
 (define (index)
   (page index.html
-        (homepage-content
+        (normal-content-wide
           (big-image
             "https://secularstudents.org/wp-content/uploads/2019/09/US-Capitol.jpeg"
             #:offset-y -1500
