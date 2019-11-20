@@ -54,18 +54,18 @@
           
           (list
            (location-courses
-           "Gallaudet"
-           (weekend-course)
-           (summer-camp))
+            "Gallaudet"
+            (weekend-course)
+            (summer-camp))
 
-          #;(location-courses
-           "LOCATION 1"
-           (summer-camp)
-           (weekend-course))
+           ;(location-courses
+           ; "LOCATION 1"
+           ; (summer-camp)
+           ; (weekend-course))
 
-          #;(location-courses
-           "LOCATION 2"
-           (weekend-course)))
+           (location-courses
+            "LOCATION 2"
+            (weekend-course)))
           
           )))
 
