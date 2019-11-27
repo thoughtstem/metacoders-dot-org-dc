@@ -17,6 +17,7 @@
       #:end-time      "12:30 pm"
       #:location      "Gallaudet University"
       #:address       "800 Florida Ave NE, Washington, DC 20002"
+      #:address-link  "https://goo.gl/maps/Yypsi9LRZB7sFTjc9"
       #:price         185
       #:sku           "sku_G7REBMxlyd6Oh1"
       #:key           "pk_test_BZvU77rH9zfNQvab1EpKB7GK00ZxANulPE"
