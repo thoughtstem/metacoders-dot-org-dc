@@ -5,6 +5,20 @@
 (require metacoders-dot-org-dc-lib
          metacoders-dot-org-lib)
 
+#;(course #:topic         topic
+          #:sku           sku
+          #:image-url     image-url
+          #:description   description
+          #:grade-range   grade-range ;use "K - 2nd" or "3rd - 6th" exactly
+          #:location      location
+          #:address       address
+          #:address-link  address-link
+          #:price         price
+          #:start-time    start-time
+          #:end-time      end-time
+          #:meeting-dates meeting-dates
+          #:status        status)   ;'open 'full or 'almost-full
+
 (define (weekend-course-clicker-k2) ;TODO: Use a course struct
   (course
       #:topic         "Point & Click Games!"
