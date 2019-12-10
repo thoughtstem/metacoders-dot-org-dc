@@ -50,7 +50,7 @@
       #:address-link  "https://goo.gl/maps/Yypsi9LRZB7sFTjc9"
       #:price         185
       #:sku           "fake_course_sku_2"
-      #:status        'almost-full
+      #:status        'full
    ))
 
 (define (weekend-course-clicker-k2-3)
@@ -169,6 +169,13 @@
                               (summer-camp-hp-3rd-6th-7/15)
                               (summer-camp-fortnite-3rd-6th-7/15)
                               )
+         #:camp-pricing (summer-camp-pricing-at #:location "Gallaudet University"
+                                                #:am-camp-time "9am - 1pm"
+                                                #:pm-camp-time "1pm - 4pm"
+                                                #:full-day-time "9am - 4pm"
+                                                #:am-price "370"
+                                                #:pm-price "290"
+                                                #:full-day-price "594")
          )))
 
 (define (pages)
