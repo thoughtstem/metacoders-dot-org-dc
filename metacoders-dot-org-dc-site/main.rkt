@@ -161,14 +161,15 @@
         (city-page
          #:city-name  "Washington, D.C."
          #:banner-url "https://secularstudents.org/wp-content/uploads/2019/09/US-Capitol.jpeg"
-         #:school-year-courses (list (weekend-course-clicker-k2)
-                                     (weekend-course-clicker-k2-2)
-                                     (weekend-course-clicker-k2-3))
-         #:summer-camps (list (summer-camp-clicker-k-2nd-7/15)
-                              (summer-camp-animal-k-2nd-7/15)
-                              (summer-camp-hp-3rd-6th-7/15)
-                              (summer-camp-fortnite-3rd-6th-7/15)
-                              )
+         #:school-year-courses '() ;(list (weekend-course-clicker-k2)
+                                   ;(weekend-course-clicker-k2-2)
+                                   ;(weekend-course-clicker-k2-3))
+         #:summer-camps '() ;(list (summer-camp-clicker-k-2nd-7/15)
+                              ;(summer-camp-animal-k-2nd-7/15)
+                              ;(summer-camp-hp-3rd-6th-7/15)
+                              ;(summer-camp-fortnite-3rd-6th-7/15)
+                              ;)
+#|         
          #:camp-pricing (summer-camp-pricing-at #:location "Gallaudet University"
                                                 #:am-camp-time "9am - 1pm"
                                                 #:pm-camp-time "1pm - 4pm"
@@ -176,6 +177,7 @@
                                                 #:am-price "370"
                                                 #:pm-price "290"
                                                 #:full-day-price "594")
+|#
          )))
 
 (define (pages)
