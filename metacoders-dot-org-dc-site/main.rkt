@@ -160,7 +160,7 @@
   (page index.html
         (city-page
          #:city-name  "Washington, D.C."
-         #:banner-url "https://secularstudents.org/wp-content/uploads/2019/09/US-Capitol.jpeg"
+         #:banner-url (prefix/pathify washington-dc-banner-path)
          #:school-year-courses '() ;(list (weekend-course-clicker-k2)
                                    ;(weekend-course-clicker-k2-2)
                                    ;(weekend-course-clicker-k2-3))
