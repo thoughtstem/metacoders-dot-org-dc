@@ -39,7 +39,7 @@ before_script:
 # `raco pkg install --deps search-auto` to install any required
 # packages without it getting stuck on a confirmation prompt.
 script:
-raco setup --no-docs --fail-fast metacoders-dot-org-dc-lib metacoders-dot-org-dc-site
+ - raco setup --no-docs --fail-fast metacoders-dot-org-dc-lib metacoders-dot-org-dc-site
 
 after_success:
  - echo "DONE!"
