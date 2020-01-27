@@ -170,6 +170,7 @@
         (city-page
          #:city-name  "Washington, D.C."
          #:banner-url (prefix/pathify washington-dc-banner-path)
+         #:alt-tag "City of Washington, D.C. with view of capital and cherry blossom trees"
          #:school-year-courses '() #;(list weekly-class-k-2nd-winter
                                      weekly-class-3rd-6th-winter
                                      weekly-class-k-2nd-spring)
