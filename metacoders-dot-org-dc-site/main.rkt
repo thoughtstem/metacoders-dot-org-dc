@@ -15,7 +15,7 @@
          #:alt-tag "City of Washington, D.C. with view of capital and cherry blossom trees"
 
 	 (remote 
-	    "https://mc-social-media.s3-us-west-1.amazonaws.com/static-points-of-sale/dallas.html"))))
+	    "https://mc-social-media.s3-us-west-1.amazonaws.com/static-points-of-sale/dc.html"))))
 
 (define (pages)
   (list
